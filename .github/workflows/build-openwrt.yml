@@ -3,7 +3,7 @@
 # 
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
-#
+#1
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 #
@@ -16,8 +16,8 @@ on:
     inputs:
       ssh:
         description: 'SSH connection to Actions'
-        required: false
-        default: 'false'
+        required: true
+        default: 'true'
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
